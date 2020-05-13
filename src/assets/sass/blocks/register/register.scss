@@ -1,0 +1,15 @@
+.register {
+  padding: 30px 0;
+}
+
+.register__inner {
+  display: flex;
+}
+
+/* Media */
+/* Max-width: 770px */
+@media(max-width: 770px) {
+  .register__inner {
+    flex-wrap: wrap;
+  }
+}

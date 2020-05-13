@@ -1,0 +1,91 @@
+.banner {
+	padding: 160px 0;
+	
+	background: url("#{$img-path}brand/brand-banner/banner-bg.jpg") no-repeat;
+}
+
+.banner__title-bold {
+	font-weight: 700;
+	word-spacing: 5px;
+}
+
+.banner__title,
+.banner__subtitle {
+	color: $white;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 7px;
+	font-weight: 300;
+}
+
+.banner__title {
+	margin-bottom: 40px;
+	
+	font-size: 48px;
+}
+
+.banner__subtitle {
+  font-size: 30px;
+}
+
+.banner__subtitle-special {
+  color: $turquoise;
+}
+
+/* Media */
+/* Max-width: 990px */
+@media(max-width: 990px) {
+	.banner__title {
+		font-size: 40px;
+	}
+
+	.banner__subtitle {
+    font-size: 24px;
+	}
+}
+
+/* Max-width: 770px */
+@media(max-width: 770px) {
+	.banner__title,
+	.banner__subtitle {
+		letter-spacing: 3px;	
+	}
+}
+
+/* Max-width: 575px */
+@media(max-width: 575px) {
+	.banner__title {
+		font-size: 35px;
+	}
+
+	.banner__subtitle {
+    font-size: 18px;
+	}
+}
+
+/* Max-width: 400px */
+@media(max-width: 400px) {
+	.banner {
+		padding: 140px 0;
+	}
+
+	.banner__title,
+	.banner__subtitle {
+		letter-spacing: 0;	
+	}
+
+	.banner__title {
+		font-size: 32px;
+	}
+
+	.banner__subtitle {
+    font-size: 16px;
+	}
+}
+
+/* Max-width: 320px */
+@media(max-width: 320px) {
+	.banner {
+		padding: 110px 0;
+	}
+}

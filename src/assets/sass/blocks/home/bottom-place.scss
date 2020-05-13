@@ -1,0 +1,25 @@
+.bottom-place {
+  padding: 60px 20px;
+  
+  background-color: #f8f8f8;
+}
+
+.bottom-place__footer {
+  display: flex;
+  margin-top: 60px;
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media (max-width: 1200px) {
+  .bottom-place__footer {
+    justify-content: center;
+  }
+}
+
+/* Max-width: 320px */
+@media (max-width: 320px) {
+  .bottom-place {
+    padding: 20px 0;
+  }
+}

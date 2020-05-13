@@ -1,0 +1,39 @@
+.cart {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 15px 0;
+
+  text-align: center;
+  color: $white;
+
+  background-color: $turquoise;
+}
+
+.cart__status {
+  margin: 0 20px;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+
+    border-left: 1px solid $white;
+    border-bottom: 1px solid $white;
+
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    z-index: 1;
+    transform: rotate(-45deg);
+    cursor: pointer;
+  }
+}
+
+.cart__svg {
+  width: 20px;
+  height: 20px;
+
+  fill: $white;
+}

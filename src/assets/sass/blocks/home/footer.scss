@@ -1,0 +1,45 @@
+.footer {
+  padding: 15px 0; 
+
+  background-color: $coal;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__span {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media (max-width: 1200px) {
+  .footer__inner {
+    justify-content: center;
+  }
+}
+
+/* Max-width: 770px */
+@media (max-width: 770px) {
+  .footer__span {
+    margin-right: 8px;
+  }
+}
+
+/* Max-width: 500px */
+@media (max-width: 500px) {
+  .footer {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+/* Max-width: 320px */
+@media (max-width: 320px) {
+  .footer {
+    font-size: 11px;
+  }
+}

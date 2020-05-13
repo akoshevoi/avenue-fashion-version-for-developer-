@@ -1,0 +1,28 @@
+.product {
+  padding: 50px 20px;
+}
+
+.product__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__top {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+/* Media */
+/* Max-width: 1070px */
+@media(max-width: 1070px) {
+  .product__top {
+    flex-wrap: wrap;
+  }
+}
+
+/* Max-width: 575px */
+@media(max-width: 575px) {
+  .product {
+    padding: 0;
+  }
+}

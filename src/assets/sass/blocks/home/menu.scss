@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.menu__link {
+  padding: 15px 30px;
+
+  color: $white;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: background .1s linear;
+
+  &:hover {
+    color: $turquoise;
+    text-decoration: none;
+  }
+}

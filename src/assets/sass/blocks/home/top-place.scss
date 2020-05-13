@@ -1,0 +1,11 @@
+.top-place {
+  background-color: $coal;
+}
+
+/* Media */
+/* Max-width: 1199px */
+@media(max-width: 1199px) {
+  .top-place {
+    display: none;
+  }
+}

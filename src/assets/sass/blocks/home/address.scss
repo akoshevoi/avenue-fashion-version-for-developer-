@@ -1,0 +1,10 @@
+.address__item {
+  margin-bottom: 15px;
+  
+  text-transform: capitalize;
+
+  &--header {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,23 @@
+.sign-up {
+  width: 50%;
+  padding: 10px 40px;
+}
+
+.sign-up__title {
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  font-weight: 700;
+  color: $coal;
+  text-transform: uppercase;
+}
+
+/* Media */
+/* Max-width: 770px */
+@media(max-width: 770px) {
+  .sign-up {
+    width: 100%;
+  }
+}
+
+

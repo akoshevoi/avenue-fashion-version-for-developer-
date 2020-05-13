@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__link {
+  display: block;
+  padding: 15px 25px;
+
+  font-size: 13px;
+  font-weight: 700;
+  color: $black;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+
+    border-left: 2px solid $gray;
+    border-bottom: 2px solid $gray;
+
+    position: absolute;
+    top: 75%;
+    left: 28px;
+    z-index: 1;
+    transform: rotate(-45deg);
+  }
+
+  &--special:after {
+    display: none;
+  }
+
+  &:hover {
+    color: $turquoise;
+    text-decoration: none;
+  }
+}
+
+.nav__link:hover.nav__link:after {
+  border-color: $turquoise;
+}

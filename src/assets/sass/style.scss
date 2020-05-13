@@ -1,0 +1,99 @@
+@import "vars";
+
+/* Default styles */
+body {
+  margin: 0;
+
+  background-color: $white;
+
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  color: $gray-dark;
+  line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.stop-scrolling { 
+  height: 100%; 
+  overflow: hidden; 
+}
+
+/*Bootstrap*/
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+
+
+/* Blocks */
+/*Home*/
+@import "blocks/home/top-place";
+@import "blocks/home/currency";
+@import "blocks/home/menu";
+@import "blocks/home/cart";
+@import "blocks/home/header";
+@import "blocks/home/nav";
+@import "blocks/home/sub-nav";
+@import "blocks/home/dropdown";
+@import "blocks/home/search";
+@import "blocks/home/intro";
+@import "blocks/home/button";
+@import "blocks/home/items";
+@import "blocks/home/merchandise";
+@import "blocks/home/lookbook-preview";
+@import "blocks/home/bottom-place";
+@import "blocks/home/navigation";
+@import "blocks/home/address";
+@import "blocks/home/award";
+@import "blocks/home/socials";
+@import "blocks/home/footer";
+@import "blocks/home/hamburger";
+@import "blocks/home/scroll-top";
+
+/*Brand*/
+@import "blocks/brand/banner";
+@import "blocks/brand/about";
+@import "blocks/brand/testimonials";
+
+/*Stores*/
+@import "blocks/stores/stores";
+@import "blocks/stores/details";
+
+/*Product*/
+@import "blocks/product/product";
+@import "blocks/product/gallery";
+@import "blocks/product/specification";
+@import "blocks/product/review";
+@import "blocks/product/share";
+@import "blocks/product/characteristic";
+@import "blocks/product/select";
+@import "blocks/product/clicks";
+@import "blocks/product/compare";
+@import "blocks/product/tabs";
+
+/*Lookbook*/
+@import "blocks/lookbook/lookbook";
+
+/*Register*/
+@import "blocks/register/register";
+@import "blocks/register/sign-in";
+@import "blocks/register/sign-up";
+@import "blocks/register/form";
+
+
+/*Vendor*/
+@import "vendor/bootstrap";

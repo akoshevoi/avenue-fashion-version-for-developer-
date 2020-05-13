@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/131a87ef5f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../../../assets/css/style.min.css"> -->
+
+  <!-- Useful meta tags 
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, noodp">
+  <meta name="googlebot" content="index, follow">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">-->
+
+  @@include('../../layouts/head-pages.html')
+
+  <title>Stores</title>
+</head>
+
+<body>
+
+  @@include('../../layouts/sprite.html')
+  @@include('../../layouts/header-pages.html')
+
+  <!-- Brand-banner- -->
+  <section class="banner">
+    <div class="container  container--banner">
+      <div class="banner__inner">
+        <h2 class="banner__title">
+          <span class="banner__title-bold">Local</span>
+          <span>Stores</span>
+        </h2>
+        <h3 class="banner__subtitle">Find a store near you</h3>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Stores -->
+  <div class="stores">
+    <div class="container">
+      <div class="stores__inner">
+        <div class="stores__item">
+          <h4 class="stores__city">London</h4>
+          <h5 class="stores__address">180-182 Regent Street, London, W1B 5BT</h5>
+          <p class="stores__text">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu
+            sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra
+            iaculis. Aliquam erat volutpat.</p>
+          <a href="#" class="stores__btn  button" data-collapse="london">View Details</a>
+        </div>
+        <div class="stores__item">
+          <h4 class="stores__city">New York</h4>
+          <h5 class="stores__address">109 Columbus Circle, New York, NY 10023</h5>
+          <p class="stores__text">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem
+            quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam
+            vitae aliquam dui, non sodales nisl.</p>
+          <a href="#" class="stores__btn  button" data-collapse="new-york">View Details</a>
+        </div>
+        <div class="stores__item">
+          <h4 class="stores__city">Paris</h4>
+          <h5 class="stores__address">2133 Rue Saint-Honoré, 75001 Paris</h5>
+          <p class="stores__text">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend.
+            Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et
+            ultrices posuere cubilia curae cras ligula.</p>
+          <a href="#" class="stores__btn  button" data-collapse="paris">View Details</a>
+        </div> <!-- /.stores__item -->
+      </div> <!-- /.stores__inner -->
+    </div> <!-- /.container -->
+  </div> <!-- /.stores -->
+  <!-- Details -->
+  <div class="details">
+    <div class="container  container--details">
+      <div class="details__inner">
+        <!-- London -->
+        <div class="details__store  active" id="london">
+          <div class="details__store-inner">
+            <div class="details__map">
+              <img class="details__img" src="../../assets/img/stores/details/london.jpg" alt="">
+            </div>
+            <div class="details__description">
+              <h4 class="details__city">London</h4>
+              <h5 class="details__address">180-182 Regent Street, London, W1B 5BT</h5>
+              <p class="details__text">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at
+                arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis
+                ligula viverra iaculis. Aliquam erat volutpat.</p>
+              <ul class="details__list">
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#pin-map"></use>
+                  </svg>
+                  <p class="details__info">180-182 Regent Street, London, W1B 5BT</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#phone"></use>
+                  </svg>
+                  <p class="details__info"> 0123-456-789</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#link"></use>
+                  </svg>
+                  <p class="details__info">www.yourwebsite.com</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#mail"></use>
+                  </svg>
+                  <p class="details__info">support@yourwebsite.com</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#clock"></use>
+                  </svg>
+                  <p class="details__info">Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to
+                    2pm</p>
+                </li>
+              </ul>
+              <div class="details__social">
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#fb"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#tw"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#inst"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#pin"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- New-York -->
+        <div class="details__store" id="new-york">
+          <div class="details__store-inner">
+            <div class="details__map">
+              <img class="details__img" src="../../assets/img/stores/details/new-york.jpg" alt="">
+            </div>
+            <div class="details__description">
+              <h4 class="details__city">New-York</h4>
+              <h5 class="details__address">109 Columbus Circle, New York, NY 10023</h5>
+              <p class="details__text">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam
+                egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi
+                eu nibh. Nullam vitae aliquam dui, non sodales nisl.</p>
+              <ul class="details__list">
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#pin-map"></use>
+                  </svg>
+                  <p class="details__info">180-182 Regent Street, London, W1B 5BT</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#phone"></use>
+                  </svg>
+                  <p class="details__info"> 0123-456-789</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#link"></use>
+                  </svg>
+                  <p class="details__info">www.yourwebsite.com</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#mail"></use>
+                  </svg>
+                  <p class="details__info">support@yourwebsite.com</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#clock"></use>
+                  </svg>
+                  <p class="details__info">Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to
+                    2pm</p>
+                </li>
+              </ul>
+              <div class="details__social">
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#fb"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#tw"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#inst"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#pin"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Paris -->
+        <div class="details__store" id="paris">
+          <div class="details__store-inner">
+            <div class="details__map">
+              <img class="details__img" src="../../assets/img/stores/details/paris.jpg" alt="">
+            </div>
+            <div class="details__description">
+              <h4 class="details__city">Paris</h4>
+              <h5 class="details__address">2133 Rue Saint-Honoré, 75001 Paris</h5>
+              <p class="details__text">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus
+                eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in
+                faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</p>
+              <ul class="details__list">
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#pin-map"></use>
+                  </svg>
+                  <p class="details__info">180-182 Regent Street, London, W1B 5BT</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#phone"></use>
+                  </svg>
+                  <p class="details__info"> 0123-456-789</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#link"></use>
+                  </svg>
+                  <p class="details__info">www.yourwebsite.com</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#mail"></use>
+                  </svg>
+                  <p class="details__info">support@yourwebsite.com</p>
+                </li>
+                <li class="details__item">
+                  <svg class="details__svg">
+                    <use xlink:href="#clock"></use>
+                  </svg>
+                  <p class="details__info">Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to
+                    2pm</p>
+                </li>
+              </ul>
+              <div class="details__social">
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#fb"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#tw"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#inst"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="details__social-item">
+                  <a class="details__link" href="">
+                    <svg class="details__svg-social">
+                      <use xlink:href="#pin"></use>
+                    </svg>
+                  </a>
+                </div> <!-- /.details__social-item -->
+              </div> <!-- /.details__social -->
+            </div> <!-- /.details__description-->
+          </div> <!-- /.details__store-inner -->
+        </div> <!-- /.details__store -->
+      </div> <!-- /.details__inner -->
+    </div> <!-- /.container  .container--details -->
+  </div> <!-- /.details -->
+
+  @@include('../../layouts/footer.html')
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="../../assets/js/header-modifier.js"></script>
+  <script src="../../assets/js/fixed-nav.js"></script>
+  <script src="../../assets/js/hamburger-category-tab.js"></script>
+  <script src="../../assets/js/hamburger-menu.js"></script>
+  <script src="../../assets/js/hamburger-search-modal.js"></script>
+  <script src="../../assets/js/scroll-top.js"></script>
+  <script src="../../assets/js/store-list.js"></script>
+
+
+</body>
+
+</html>

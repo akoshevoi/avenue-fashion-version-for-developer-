@@ -1,0 +1,179 @@
+.details {
+  margin-bottom: 100px;
+
+  background-color: #f8f8f8;
+}
+
+.details__store {
+  display: none;  
+}
+
+.details__store.active {
+  display: block;  
+}
+
+.details__store-inner {
+  display: flex;  
+}
+
+.details__description {
+  padding: 15px 10px 15px 30px;
+
+  background-color: #f8f8f8;
+}
+
+.details__city, 
+.details__address {
+  margin: 15px 0;
+
+  text-transform: uppercase;
+  color: $coal;
+  font-weight: 700;
+}
+
+.details__city {
+  font-size: 18px;
+}
+
+.details__address {
+  font-size: 13px;
+}
+
+.details__text {
+  margin-bottom: 15px;
+
+  font-size: 15px;
+}
+
+.details__list {
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+}
+
+.details__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details__svg {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+
+  fill: $gray;
+}
+
+.details__social {
+  display: flex;
+}
+
+.details__social-item {
+  margin: 0 5px;
+}
+
+.details__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  background-color: $gray-dark;
+
+  position: relative;
+
+  transition: background .2s linear;
+
+  &:hover {
+    background: $turquoise;
+  }
+}
+
+.details__svg-social {
+  width: 14px; 
+  height: 14px;
+  margin: auto;
+
+  fill: $white;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media(max-width: 1200px) {
+  .details__img {
+    width: 100%;
+  }
+
+  .details__map {
+    width: 70%;
+  }
+
+  .details__description {
+    width: 30%;
+    padding: 0 10px 0 30px;
+  }
+}
+
+/* Media */
+/* Max-width: 1100px */
+@media(max-width: 1100px) {
+  .details__store-inner {
+    flex-wrap: wrap;
+  }
+
+  .details__map, 
+  .details__description {
+    width: 100%;
+  }
+
+  .details__description {
+    padding: 0 10px 15px 30px;
+  }
+}
+
+/* Max-width: 575px */
+@media(max-width: 575px) {
+  .details__description {
+    padding: 10px 10px 15px 30px;
+  }
+
+  .details__city,
+  .details__address {
+    margin: 5px 0;
+  }
+
+  .details__city {
+    font-size: 16px;
+  }
+
+  .details__address {
+    font-size: 11px;
+  }
+
+  .details__text {
+    font-size: 14px;
+  }
+
+  .details__list {
+    font-size: 12px;
+  }
+
+  .details__link {
+    width: 28px;
+    height: 28px;
+  }
+
+  .details__svg-social {
+    width: 12px;
+    height: 12px;
+  }
+}

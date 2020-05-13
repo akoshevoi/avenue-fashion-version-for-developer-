@@ -1,0 +1,44 @@
+.currency {
+  display: flex;
+
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+
+    border-left: 1px solid #777;
+    border-bottom: 1px solid #777;
+
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    z-index: 1;
+    transform: rotate(-45deg);
+    pointer-events: none;
+    
+  }
+}
+
+.currency__label {
+  width: 60%;
+  margin: 0;
+}
+
+.currency__select {
+  width: 40%;
+  display: block;
+  margin: 0 10px;
+
+  color: inherit;
+  font-family: inherit;
+
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  position: relative;
+}

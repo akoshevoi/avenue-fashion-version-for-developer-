@@ -1,0 +1,144 @@
+.lookbook-preview {
+  margin: 20px 0; 
+  padding: 30px 0;
+}
+
+.lookbook-preview__item {
+  display: flex;
+  align-items: center;
+
+  text-align: right;
+
+  background-color: #f8f8f8;
+}
+
+.lookbook-preview__img {
+  width: 100%;
+}
+
+.lookbook-preview__content {
+  width: 65%;
+  padding: 30px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.lookbook-preview__title,
+.lookbook-preview__subtitle {
+  margin-bottom: 20px;
+
+  color: $coal;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.lookbook-preview__subtitle {
+  font-weight: 400;
+}
+
+.lookbook-preview__text {
+  margin-bottom: 20px;
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media (max-width: 1200px) {
+  .lookbook-preview__content {
+    width: 65%;
+    padding: 20px 25px 10px 30px;
+  }
+  
+  .lookbook-preview__img {
+    width: 100%;
+  }
+
+  .lookbook-preview__subtitle,
+  .lookbook-preview__title {
+    margin-bottom: 0;
+
+    font-size: 20px;
+  }
+
+  .lookbook-preview__text {
+    font-size: 12px;
+  }
+}
+
+/* Max-width: 990px */
+@media (max-width: 990px) {
+  .lookbook-preview__col {
+    margin: 0 auto;
+  }
+
+  .lookbook-preview__item {
+    margin: 20px auto;
+  }
+
+  .lookbook-preview__title,
+  .lookbook-preview__subtitle {
+    margin-bottom: 10px;
+
+    font-size: 35px;
+  }
+
+  .lookbook-preview__content {
+    padding: 40px 25px 10px 30px;
+  }
+}
+
+/* Max-width: 480px */
+@media (max-width: 480px) {
+  .lookbook-preview__title,
+  .lookbook-preview__subtitle {
+    margin-bottom: 0;
+
+    font-size: 30px;
+  }
+}
+
+/* Max-width: 450px */
+@media (max-width: 450px) {  
+  .lookbook-preview__subtitle, 
+  .lookbook-preview__title {
+    margin: 0;
+    font-size: 21px;
+  }
+
+  .lookbook-preview__text {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}
+
+/* Max-width: 400px */
+@media (max-width: 400px) {  
+  .lookbook-preview__subtitle, 
+  .lookbook-preview__title {
+    font-size: 18px;
+  }
+
+  .lookbook-preview__text {
+    font-size: 11px;
+  }
+}
+
+/* Max-width: 350px */
+@media (max-width: 350px) {  
+  .lookbook-preview__subtitle, 
+  .lookbook-preview__title {
+    font-size: 15px;
+  }
+
+  .lookbook-preview__text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+

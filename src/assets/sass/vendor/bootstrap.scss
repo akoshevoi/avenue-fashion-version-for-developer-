@@ -1,0 +1,138 @@
+/*Grid*/
+.col-xl-9--menu {
+  padding-right: 0;
+}
+
+.col-xl-2--cart {
+  padding-left: 0;
+}
+
+.container--top-place, 
+.container--bottom-place, 
+.container--footer {
+  max-width: 1400px;
+}
+
+.container--banner, 
+.container--product,
+.container--register {
+  max-width: 1500px;
+}
+
+.container--header, 
+.container--items {
+  max-width: 1600px;
+}
+
+.container--details {
+  max-width: 1800px;
+}
+
+.container--lookbook-preview {
+  max-width: 1800px;
+}
+
+.container--lookbook-pages {
+  max-width: 1600px;
+}
+
+.header .col-lg-5 {
+  margin-left: 200px;
+}
+
+.intro .container, 
+.intro .row {
+  height: 100%;  
+}
+
+.intro .row {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hamburger .row {
+  padding: 15px 0;
+}
+
+.top-place .row {
+  align-items: center;
+}
+
+.bottom-place .row {
+  margin-bottom: 30px;
+}
+
+/*Dropdown*/
+.top-place .dropdown-menu {
+  min-width: 55px;
+  padding: 0;
+
+  background: $coal;
+
+  color: #777;
+
+  text-align: center;
+
+  border-color: $gray;
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media(max-width:1200px) {
+  .container--banner, 
+  .container--items,
+  .container--lookbook-preview,
+  .container--lookbook-pages,
+  .container--bottom-place,
+  .container--footer {
+    max-width: 1140px;
+  }
+}
+
+/* Max-width: 990px */
+@media(max-width:990px) {
+  .items .row, 
+  .bottom-place .row {
+    justify-content: center;
+  } 
+}
+
+/* Max-width: 767px */
+@media(max-width: 767px) {
+  .hamburger .container {
+    max-width: 750px;
+    padding-left: 30px;
+    padding-right: 30px;
+  } 
+}
+
+/* Max-width: 575px */
+@media(max-width:575px) {
+  .hamburger .container {
+    max-width: 575px;
+    padding-left: 40px;
+    padding-right: 40px;
+  } 
+  
+  .hamburger .row {
+    position: relative;
+    z-index: 5;
+  } 
+}
+
+/* Max-width: 400px */
+@media(max-width: 400px) {
+  .hamburger .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Max-width: 320px */
+@media(max-width: 320px) {
+  .hamburger .container {
+    max-width: 320px;
+  }
+}
+
+

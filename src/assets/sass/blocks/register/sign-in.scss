@@ -1,0 +1,25 @@
+.sign-in {
+  width: 50%;
+  padding: 10px 40px;
+
+  border-right: 1px solid $gray-medium;
+}
+
+.sign-in__title {
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  font-weight: 700;
+  color: $coal;
+  text-transform: uppercase;
+}
+
+/* Media */
+/* Max-width: 770px */
+@media(max-width: 770px) {
+  .sign-in {
+    width: 100%;
+    
+    border-right: none;
+  }
+}

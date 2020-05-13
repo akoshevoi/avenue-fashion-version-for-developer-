@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/131a87ef5f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../../../assets/css/style.min.css"> -->
+
+  <!-- Useful meta tags 
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow, noodp">
+  <meta name="googlebot" content="index, follow">
+  <meta name="google" content="notranslate">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">-->
+
+  @@include('../../layouts/head-pages.html')
+
+  <title>Register</title>
+</head>
+
+<body>
+
+  @@include('../../layouts/sprite.html')
+  @@include('../../layouts/header-pages.html')
+
+  <!-- Brand-banner- -->
+  <section class="banner">
+    <div class="container  container--banner">
+      <div class="banner__inner">
+        <h2 class="banner__title">
+          <span class="banner__title-bold">Welcome</span>
+          <span>To Ave</span>
+        </h2>
+        <h3 class="banner__subtitle">sign in or register</h3>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Register -->
+  <div class="register">
+    <div class="container  container--register">
+      <div class="register__inner">
+        <!-- Sign In -->
+        <div class="sign-in">
+          <div class="sign-in__title">Sign In</div>
+          <form class="form" action="">
+            <div class="form__group">
+              <input class="form__input" type="text" placeholder="Your email...">
+            </div>
+            <div class="form__group">
+              <input class="form__input" type="password" placeholder="Your password...">
+            </div>
+            <div class="form__group  form__group--btn">
+              <button class="button" type="submit">Sign In</button>
+              <div class="form__group  form__group--link">
+                <a class="form__link" href="#">Forgot your Password</a>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </form>
+        </div> <!-- /.sign-in -->
+        <!-- Sign Up -->
+        <div class="sign-up">
+          <div class="sign-up__title">Register</div>
+          <form class="form" action="">
+            <div class="form__group">
+              <input class="form__input" type="text" placeholder="Your email...">
+            </div>
+            <div class="form__group">
+              <input class="form__input" type="password" placeholder="Your password...">
+            </div>
+            <div class="form__group">
+              <input class="form__input" type="password" placeholder="Confirm password...">
+            </div>
+            <div class="form__group  form__group--checkbox">
+              <input class="form__checkbox" type="checkbox" id="subscription">
+              <label class="form__label" for="subscription">
+                Sign up for exclusive updates, discounts, new arrivals, contests, and more!
+              </label>
+            </div>
+            <div class="form__group  form__group--btn">
+              <button class="button" type="submit">Create Account</button>
+              <div class="form__group  form__group--link">
+                <span class="form__agree">By clicking ‘Create Account’, you agree to our</span>
+                <a class="form__link" href="#">Privacy Policy</a>
+                <i class="fas fa-arrow-right"></i>
+              </div>
+            </div>
+          </form>
+        </div> <!-- /.sign-up -->
+      </div> <!-- /.register__inner -->
+    </div> <!-- /.container -->
+  </div> <!-- /.register -->
+
+  @@include('../../layouts/footer.html')
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="../../assets/js/header-modifier.js"></script>
+  <script src="../../assets/js/fixed-nav.js"></script>
+  <script src="../../assets/js/hamburger-category-tab.js"></script>
+  <script src="../../assets/js/hamburger-menu.js"></script>
+  <script src="../../assets/js/hamburger-search-modal.js"></script>
+  <script src="../../assets/js/scroll-top.js"></script>
+
+</body>
+
+</html>

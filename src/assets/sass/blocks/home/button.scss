@@ -1,0 +1,179 @@
+.button {
+  display: inline-block;
+  padding: 20px 50px;
+  margin: 15px 0;
+
+  color: $coal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+
+  background: transparent;
+  border: 2px solid $coal;
+
+  transition: background .2s linear, border .2s linear;
+
+  &:hover {
+    background: $turquoise;
+    text-decoration: none;
+    color: $white;
+    border-color: $gray-light;
+  }
+
+  &--specification {
+    margin-right: 20px;
+
+    background-color: $white;
+
+    &:hover {
+        background-color: $coal;
+        border-color: $coal;
+    }
+
+    &:hover .specification__svg {
+        fill: $white;
+    }
+  }
+}
+
+.intro .button {
+  position: relative;
+  z-index: 2;
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media (max-width: 1200px) {
+  .lookbook-preview .button,
+  .lookbook .button {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .stores .button {
+    padding: 20px;
+
+    text-align: center;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+
+  .register .button {
+    padding: 20px;
+  }
+}
+
+/* Max-width: 1140px */
+@media (max-width: 1140px) {
+  .button--specification {
+    font-size: 0;
+    letter-spacing: 0;
+  }
+}
+
+/* Max-width: 1070px */
+@media (max-width: 1070px) {
+  .button--specification {
+    font-size: inherit;
+  }
+}
+
+/* Max-width: 990px */
+@media (max-width: 990px) {
+  .intro .button {
+    padding: 20px;
+  }
+
+  .stores .button {
+    align-self: center;
+  }
+}
+
+/* Max-width: 770px */
+@media (max-width: 770px) {
+  .button--specification {
+    padding: 20px;
+  }
+}
+
+/* Max-width: 767px */
+@media (max-width: 767px) {
+  .intro .button {
+    padding: 5px;
+
+    font-size: 12px;
+  }
+}
+
+/* Max-width: 575px */
+@media (max-width: 575px) {
+  .intro .button {
+    padding: 5px;
+    margin: 0;
+  }
+
+  .lookbook__column .button {
+    padding: 5px;
+
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+}
+
+/* Max-width: 530px */
+@media (max-width: 530px) {
+  .intro__button-grid {
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+}
+
+/* Max-width: 500px */
+@media (max-width: 500px) {
+  .intro__button-grid {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+
+  .lookbook__column .button {
+    padding: 0;
+
+    border: none;
+  }
+}
+
+/* Max-width: 470px */
+@media (max-width: 470px) {
+  .register .button {
+    padding: 10px;
+    
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+}
+
+/* Max-width: 400px */
+@media (max-width: 400px) {
+  .lookbook-preview .button {
+    padding: 5px;
+    word-spacing: 0;
+    letter-spacing: 0;
+  }
+}
+
+/* Max-width: 380px */
+@media (max-width: 380px) {
+  .intro__button-grid {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+
+/* Max-width: 350px */
+@media (max-width: 350px) {
+  .button--specification {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+.characteristic {
+  margin: 30px 0;
+}
+
+.characteristic__item {
+  display: flex;
+}
+
+.characteristic__name {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.characteristic__info {
+	margin: 0 10px;
+
+	&--special {
+		color: $turquoise;
+	}
+}
+
+/* Media */
+/* Max-width: 1200px */
+@media(max-width: 1200px) {
+	.characteristic {
+    margin: 10px 0;
+	}
+}
